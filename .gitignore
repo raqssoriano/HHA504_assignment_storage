@@ -163,5 +163,7 @@ cython_debug/
 
 
 # Ignore my GCP secret file
-gcpstorage.py
 gcp-hush.json
+test-gcpstorage.py
+trial.py
+
