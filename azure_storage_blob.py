@@ -7,7 +7,6 @@ from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
 import os
 from dotenv import load_dotenv
 
-
 # Load environment variables from a .env file
 load_dotenv()
 
@@ -65,3 +64,4 @@ def list_blobs_flat(blob_service_client, container_name):
         print(f"Name: {blob.name}")
 
 list_blobs_flat(blob_service_client, 'raqs-container')
+
