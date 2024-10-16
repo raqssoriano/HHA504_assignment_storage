@@ -182,7 +182,7 @@
 
 ## Step 6: Explore Storage Features
   - Explore and document the options for managing and securing data in GCP Cloud Storage (e.g., IAM permissions, lifecycle rules).
-  - _**IAM permissions:**_ I was able to assigned role like "Storage Object Viewer"--to create custom role with specific permissions depending on my need.
+  - _**IAM permissions:**_ I was able to assigned role like "Storage Object Creator"--to create custom role with specific permissions depending on my need.
 
     <img src="https://github.com/raqssoriano/HHA504_assignment_storage/blob/main/GCP-storage/19%20-%20storage%20obj%20editor%20-%20new%20role.png" width="550" />.
 
