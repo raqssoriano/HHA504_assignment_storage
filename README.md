@@ -3,8 +3,10 @@
 
 - **🎯** This task is part of my assignment focused on familiarizing myself with cloud storage services. This repository contains codes and documentation on how I learned and gained hands-on experience uploading files to **`Azure Blob Storage`** and **`Google Cloud Platform (GCP) Cloud Storage`** using both **`Python`** scripts and the platform's **`GUI`**.
 
-- **📝** Please refer to [**gcp_storage.py**](https://github.com/raqssoriano/HHA504_assignment_storage/blob/main/gcp_storage.py) for the python scripts, which I created using **`Python`** in **`Visual Studio Code`** to upload files/images to GCP storage.
-
+- **📌** Please refer to the following python scripts for uploading my files/images to GCP storage and Azure Blob Storage.
+  - [**gcp_storage.py**](https://github.com/raqssoriano/HHA504_assignment_storage/blob/main/gcp_storage.py) - created using **`Python`** in **`Visual Studio Code`**
+  - [**azure_storage_blob.py**](https://github.com/raqssoriano/HHA504_assignment_storage/blob/main/azure_storage_blob.py) - created using **`Python`** in both **`Visual Studio Code`** and **`Colab`**.
+    
 - **💡** Any feedback or suggestions are welcome to improve the content of this repository.
 
 ---
@@ -100,11 +102,10 @@
 
     
 ---
-
 # _*☞ GCP*_
 ---
 
-# Step 1: Upload Files Using the GUI
+## Step 1: Upload Files Using the GUI
 - Access the Google Cloud Console and create a new Cloud Storage bucket.
 - Upload a similar sample file to the bucket using the GCP Console.
 
@@ -122,7 +123,7 @@
   <img src="https://github.com/raqssoriano/HHA504_assignment_storage/blob/main/GCP-storage/9%20-%20successful%20creation%20of%20storage%20bucket.png" width="550" />.
 
 
-# Step 2: Setting Up Authentication and Download Access Keys
+## Step 2: Setting Up Authentication and Download Access Keys
 1. Create a Service Account
 - Go to the IAM & Admin Dashboard.
 - Click + Create Service Account.
@@ -153,7 +154,7 @@
   
   <img src="https://github.com/raqssoriano/HHA504_assignment_storage/blob/main/GCP-storage/23%20-%20private%20key%20(HIDDEN).png" width="550" />.
 
-# Step 3: Upload Files Using Python
+## Step 3: Upload Files Using Python
 - Write a Python script that uploads a file to the GCP Cloud Storage bucket you created. Use the [**gcp_storage.py**](https://github.com/raqssoriano/HHA504_assignment_storage/blob/main/gcp_storage.py) library to handle the upload.
 
     <img src="https://github.com/raqssoriano/HHA504_assignment_storage/blob/main/GCP-storage/24%20-%20codes%20from%20professor.png" width="550" />.
@@ -167,19 +168,19 @@
     <img src="https://github.com/raqssoriano/HHA504_assignment_storage/blob/main/GCP-storage/27%20-%20check.png" width="600" />.
     <img src="https://github.com/raqssoriano/HHA504_assignment_storage/blob/main/GCP-storage/28%20-%20check.png" width="600" />.
 
-# Step 4: Write Python Code to Upload Fake Images
+## Step 4: Write Python Code to Upload Fake Images
 - Create a Python script.
     
     <img src="https://github.com/raqssoriano/HHA504_assignment_storage/blob/main/GCP-storage/29%20-%20vsc%20-%20files%3AImages%20uploaded%20successfully.png" width="600" />.
 
-# Step 5: Run the Python Script
+## Step 5: Run the Python Script
 - Run the Python script using [**gcp_storage.py**](https://github.com/raqssoriano/HHA504_assignment_storage/blob/main/gcp_storage.py)
-- Check your Google Cloud Storage bucket to see if the fake image was uploaded successfully.
+- Check Google Cloud Storage bucket to see if the fake image was uploaded successfully.
 
     <img src="https://github.com/raqssoriano/HHA504_assignment_storage/blob/main/GCP-storage/30%20-%20successful%20images%20uploaded%20to%20gcp%20storage.png" width="550" />    
 
 
-# Step 5: Explore Storage Features
+## Step 6: Explore Storage Features
   - Explore and document the options for managing and securing data in GCP Cloud Storage (e.g., IAM permissions, lifecycle rules).
   - _**IAM permissions:**_ I was able to assigned role like "Storage Object Viewer"--to create custom role with specific permissions depending on my need.
 
